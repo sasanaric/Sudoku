@@ -61,7 +61,9 @@ namespace SudokuApp
             {
                 for (int j = 0; j < 9; j++)
                 {
-                    Console.Write(sudokuGrid[i, j]+"  ");
+                    // Console.Write(sudokuGrid[i, j]+"  ");
+                    Console.WriteLine(
+                        $"<Border Style=\"{{StaticResource CellBorder}}\" Grid.Row=\"{i}\" Grid.Column=\"{j}\"/>");
                 }
                 Console.WriteLine();
             }
