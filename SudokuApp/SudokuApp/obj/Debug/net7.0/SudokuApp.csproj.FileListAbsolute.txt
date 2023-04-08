@@ -1,0 +1,15 @@
+C:\Users\snari\RiderProjects\Sudoku\SudokuApp\SudokuApp\bin\Debug\net7.0\SudokuApp.exe
+C:\Users\snari\RiderProjects\Sudoku\SudokuApp\SudokuApp\bin\Debug\net7.0\SudokuApp.deps.json
+C:\Users\snari\RiderProjects\Sudoku\SudokuApp\SudokuApp\bin\Debug\net7.0\SudokuApp.runtimeconfig.json
+C:\Users\snari\RiderProjects\Sudoku\SudokuApp\SudokuApp\bin\Debug\net7.0\SudokuApp.dll
+C:\Users\snari\RiderProjects\Sudoku\SudokuApp\SudokuApp\bin\Debug\net7.0\SudokuApp.pdb
+C:\Users\snari\RiderProjects\Sudoku\SudokuApp\SudokuApp\obj\Debug\net7.0\SudokuApp.csproj.AssemblyReference.cache
+C:\Users\snari\RiderProjects\Sudoku\SudokuApp\SudokuApp\obj\Debug\net7.0\SudokuApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\snari\RiderProjects\Sudoku\SudokuApp\SudokuApp\obj\Debug\net7.0\SudokuApp.AssemblyInfoInputs.cache
+C:\Users\snari\RiderProjects\Sudoku\SudokuApp\SudokuApp\obj\Debug\net7.0\SudokuApp.AssemblyInfo.cs
+C:\Users\snari\RiderProjects\Sudoku\SudokuApp\SudokuApp\obj\Debug\net7.0\SudokuApp.csproj.CoreCompileInputs.cache
+C:\Users\snari\RiderProjects\Sudoku\SudokuApp\SudokuApp\obj\Debug\net7.0\SudokuApp.dll
+C:\Users\snari\RiderProjects\Sudoku\SudokuApp\SudokuApp\obj\Debug\net7.0\refint\SudokuApp.dll
+C:\Users\snari\RiderProjects\Sudoku\SudokuApp\SudokuApp\obj\Debug\net7.0\SudokuApp.pdb
+C:\Users\snari\RiderProjects\Sudoku\SudokuApp\SudokuApp\obj\Debug\net7.0\SudokuApp.genruntimeconfig.cache
+C:\Users\snari\RiderProjects\Sudoku\SudokuApp\SudokuApp\obj\Debug\net7.0\ref\SudokuApp.dll
