@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4740f0e-860f-48d4-8e91-1dd954fde1c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sudoku.dir/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SudokuApp/SudokuApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SudokuApp/SudokuApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SudokuApp/SudokuApp/bin/Debug/net7.0/SudokuApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SudokuApp/SudokuApp/bin/Debug/net7.0/SudokuApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SudokuApp/SudokuApp/bin/Debug/net7.0/SudokuApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SudokuApp/SudokuApp/bin/Debug/net7.0/SudokuApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SudokuApp/SudokuApp/obj/Debug/net7.0/SudokuApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SudokuApp/SudokuApp/obj/Debug/net7.0/SudokuApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SudokuApp/SudokuApp/obj/Debug/net7.0/SudokuApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SudokuApp/SudokuApp/obj/Debug/net7.0/SudokuApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Sudoku.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sudoku.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SudokuWPF/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/SudokuWPF/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SudokuWPF/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SudokuWPF/MainWindow.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SudokuWPF/bin/Debug/SudokuWPF.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SudokuWPF/bin/Debug/SudokuWPF.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SudokuWPF/bin/Debug/SudokuWPF.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SudokuWPF/bin/Debug/SudokuWPF.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SudokuWPF/obj/Debug/MainWindow.baml" beforeDir="false" afterPath="$PROJECT_DIR$/SudokuWPF/obj/Debug/MainWindow.baml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SudokuWPF/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SudokuWPF/obj/Debug/MainWindow.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SudokuWPF/obj/Debug/SudokuWPF.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SudokuWPF/obj/Debug/SudokuWPF.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SudokuWPF/obj/Debug/SudokuWPF.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/SudokuWPF/obj/Debug/SudokuWPF.g.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SudokuWPF/obj/Debug/SudokuWPF.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SudokuWPF/obj/Debug/SudokuWPF.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SudokuApp/SudokuApp/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SudokuWPF/App.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SudokuWPF/MainWindow.xaml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SudokuWPF/MainWindow.xaml.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -31,16 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Project.SudokuWPF">
     <configuration name="Program" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/SudokuApp/SudokuApp/bin/Debug/net7.0/SudokuApp.exe" />
@@ -68,11 +76,12 @@
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="RUNTIME_TYPE" value="netfw" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/SudokuWPF/SudokuWPF.csproj" />
-      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="0" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_KIND" value="Unloaded" />
       <option name="PROJECT_TFM" value=".NETFramework,Version=v4.8.1" />
       <method v="2">
         <option name="Build" />
@@ -91,7 +100,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680965285811</updated>
-      <workItem from="1680965289780" duration="5401000" />
+      <workItem from="1680965289780" duration="8666000" />
+      <workItem from="1681041905045" duration="230000" />
     </task>
     <servers />
   </component>

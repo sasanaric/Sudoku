@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         xmlns:local="clr-namespace:SudokuWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="400" Width="500">
@@ -11,6 +12,15 @@
             <Style TargetType="Border" x:Key="CellBorder">
                 <Setter Property="BorderBrush" Value="Black"/>
                 <Setter Property="BorderThickness" Value="0.5"/>
+            </Style>
+            <Style TargetType="TextBox" BasedOn="{StaticResource {x:Type TextBox}}">
+                <Setter Property="TextAlignment" Value="Center"></Setter>
+                <Setter Property="FontSize" Value="18"></Setter>
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Cursor" Value="Hand" />
+                    </Trigger>
+                </Style.Triggers>
             </Style>
         </Grid.Resources>
         <Grid.RowDefinitions>
@@ -35,7 +45,8 @@
             <ColumnDefinition Width="30"/>
             <ColumnDefinition Width="30"/>
         </Grid.ColumnDefinitions>
-        <Border Style="{StaticResource CellBorder}" Grid.Row="0" Grid.Column="0" BorderThickness="2 2 0.5 0.5"><TextBox></TextBox></Border>
+        <Border Style="{StaticResource CellBorder}" Grid.Row="0" Grid.Column="0" BorderThickness="2 2 0.5 0.5">
+            <xctk:IntegerUpDown Value="1" Minimum="0" Maximum="100" Width="100" Height="30"/></Border>
         <Border Style="{StaticResource CellBorder}" Grid.Row="0" Grid.Column="1" BorderThickness="0.5 2 0.5 0.5"><TextBox></TextBox></Border>
         <Border Style="{StaticResource CellBorder}" Grid.Row="0" Grid.Column="2" BorderThickness="0.5 2 2 0.5"><TextBox></TextBox></Border>
         <Border Style="{StaticResource CellBorder}" Grid.Row="0" Grid.Column="3" BorderThickness="0.5 2 0.5 0.5"><TextBox></TextBox></Border>
