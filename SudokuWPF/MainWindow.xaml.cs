@@ -13,7 +13,6 @@ using System.Windows.Threading;
 namespace SudokuWPF
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow
     {
@@ -36,13 +35,10 @@ namespace SudokuWPF
         }
         private void OnCellClick(object sender, RoutedEventArgs e)
         {
-            // TextBox lastTextBox = getTextBoxFromGrid(selectedCellRow, selectedCellColumn);
-            // lastTextBox.Background = Brushes.White;
             whitePaint();
             TextBox textBox = sender as TextBox;
             if (textBox != null)
             {
-                // textBox.Background = Brushes.LightSkyBlue;
                 Border border = (Border) textBox.Parent;
                 selectedCellRow = Grid.GetRow(border);
                 selectedCellColumn = Grid.GetColumn(border);
